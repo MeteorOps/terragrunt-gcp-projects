@@ -26,7 +26,7 @@ generate "provider" {
   contents  = <<EOF
 provider "google" {
   region = "${local.gcp_region}"
-
+  project = "${local.project_id}"
 }
 EOF
 }

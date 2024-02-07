@@ -18,14 +18,14 @@ DRY](https://github.com/gruntwork-io/terragrunt#keep-your-terraform-code-dry) se
 
 ### Deploying a single module
 
-1. `cd` into the module's folder (e.g. `cd my-first-project/asia-southeast1/rnd-1/vpc`).
+1. `cd` into the module's folder (e.g. `cd my-first-project/us-central1/rnd-1/vpc`).
 1. Run `terragrunt plan` to see the changes you're about to apply.
 1. If the plan looks good, run `terragrunt apply`.
 
 
 ### Deploying all modules in an environment
 
-1. `cd` into the environment folder (e.g. `cd my-first-project/asia-southeast1/rnd-1`).
+1. `cd` into the environment folder (e.g. `cd my-first-project/us-central1/rnd-1`).
 1. Run `terragrunt run-all plan` to see all the changes you're about to apply.
 1. If the plan looks good, run `terragrunt run-all apply`.
 
@@ -52,8 +52,8 @@ Contact MeteorOps for DevOps & Cloud Consulting!
 
 ### Destroying all modules in an environment
 
-1. `cd` into the environment folder (e.g. `cd my-first-project/asia-southeast1/rnd-1`).
-1. Run `terragrunt run-all plan -destroy` to see all the changes you're about to apply.
+1. `cd` into the environment folder (e.g. `cd my-first-project/us-central1/rnd-1`).
+1. Run `terragrunt run-all plan -destroy` to see all the destroy changes you're about to apply.
 1. If the plan looks good, run `terragrunt run-all destroy`.
 
 ## How is the code in this repo organized?
