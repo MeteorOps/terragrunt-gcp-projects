@@ -1,5 +1,5 @@
 # Example GCP projects infrastructure for Terragrunt
-![Static Badge](https://img.shields.io/badge/maintained%20by-meteorops.com-27233e?link=https%3A%2F%2Fmeteorops.com)
+[![Maintained by meteorops.com](https://img.shields.io/badge/maintained%20by-meteorops.com-27233e)](https://meteorops.com)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.12.6-blue.svg)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
