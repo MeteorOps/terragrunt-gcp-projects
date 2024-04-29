@@ -28,12 +28,12 @@ inputs = {
     {
       subnet_name   = "subnet-01"
       subnet_ip     = "10.186.0.0/19"
-      subnet_region = "us-central1"
+      subnet_region = local.region_vars.locals.gcp_region
     },
     {
       subnet_name           = "subnet-02"
       subnet_ip             = "10.186.32.0/19"
-      subnet_region         = "us-central1"
+      subnet_region         = local.region_vars.locals.gcp_region
       subnet_private_access = "true"
     }
   ]
